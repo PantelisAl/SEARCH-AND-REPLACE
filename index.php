@@ -20,63 +20,58 @@
 
   }
 ?>
-
-<style>
-   
-   .container{
-       border: 1px solid #000;
-       position:absolute;
-       top:50%;
-       left:50%;
-       transform:translate(-50% ,-50%);
-       text-align:center;
-       height:400px;
-       margin:0px;
-   }
-
-   input,textarea{
-     border: 1px solid #000;
-   }
-
-   input[type="submit"],input[type="reset"]{
-     padding:5px 10px;
-     background:#ff0000;
-     color:#fff;
-     margin-bottom:5px;
-     opacity:0.7;
-     transition:0.5s ease;
-     cursor:pointer;
-   }
-
-   input[type="submit"]:hover,input[type="reset"]:hover{
-    opacity:1;
-   }
-
-   textarea{
-      width:100%; 
-   }   
-
-   .color{
-     color:#ff0000;
-   }
-
-   .color2{
-     color:#209b72;;
-   }
-
-    .error{
-        height: 45px;
-    }
-
-</style>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEARCH AND REPLACE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEARCH AND REPLACE</title>
+  <style>
+     .container{
+         border: 1px solid #000;
+         position:absolute;
+         top:50%;
+         left:50%;
+         transform:translate(-50% ,-50%);
+         text-align:center;
+         height:400px;
+         margin:0px;
+     }
+  
+     input,textarea{
+       border: 1px solid #000;
+     }
+  
+     input[type="submit"],input[type="reset"]{
+       padding:5px 10px;
+       background:#ff0000;
+       color:#fff;
+       margin-bottom:5px;
+       opacity:0.7;
+       transition:0.5s ease;
+       cursor:pointer;
+     }
+  
+     input[type="submit"]:hover,input[type="reset"]:hover{
+      opacity:1;
+     }
+  
+     textarea{
+        width:100%; 
+     }   
+  
+     .color{
+       color:#ff0000;
+     }
+  
+     .color2{
+       color:#209b72;;
+     }
+  
+      .error{
+          height: 45px;
+      }
+</style>
 </head>
 <body>
 
